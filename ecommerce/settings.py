@@ -29,6 +29,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+PYTHON_VERSION = config('PYTHON_VERSION')
+
 
 # Application definition
 
