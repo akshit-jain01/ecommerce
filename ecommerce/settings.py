@@ -24,12 +24,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
 
+# SECRET_KEY="django-insecure-&#3&fj@(1x#o++1_1z2@w$ys7hz^dh%+icwqr&_fp&j2t80k#-"
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost','picky-production-a351.up.railway.app']
 
-PYTHON_VERSION = config('PYTHON_VERSION')
+# PYTHON_VERSION = config('PYTHON_VERSION')
 
 
 # Application definition
