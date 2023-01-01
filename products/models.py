@@ -4,8 +4,8 @@ import uuid
 from django.utils.text import slugify
 
 class ColorVariant(models.Model):
-    color = models.CharField()
-    color_code = models.CharField()
+    color = models.CharField(max_length=100)
+    color_code = models.CharField(max_length=100)
 class Category(models.Model):
     category_name = models.CharField(max_length=255)
     slug = models.SlugField()
